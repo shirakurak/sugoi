@@ -1,0 +1,41 @@
+body {
+  color: #333; /* 文字色：あらめの黒 */
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #efefef;
+  margin-bottom: 50px;
+  height: 300px;
+}
+
+.container h1 {
+  margin-top: 120px;
+  font-weight: normal;
+  display: inline-block; /* 要素の大きさを文字に合わせる */
+  border-bottom: solid 1px black;
+}
+
+.question > section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.question > section > h1 {
+  margin-bottom: 5px;
+}
+
+.question > section > p {
+  margin-top: 0px;
+}
+
+.howise {
+  color: #EE0000;
+}
+
+.textlines  {
+  font-size: 18px;
+  padding: 0.3em; /* 内側の余白量 */
+  background-color: snow;  /* 背景色 */
+}
